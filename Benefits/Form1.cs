@@ -34,7 +34,7 @@ namespace Benefits
                 label2.Text = "The number of children you are entitled to is: £" + (otherChild * numericUpDown1.Value + oldestChild - otherChild).ToString();
             }
             else{
-                label2.Text = "The number of children you are entitled to is: £0";
+                label2.Text = "The number of children you are entitled to is: £1";
             }
         }
     }
